@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://backiee.com/static/wallpapers/3840x2160/209228.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 400px; /* Increased width for better visibility */
+    background-color: rgba(109, 67, 181, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 75px rgb(136, 10, 220);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Input width adjusted */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
